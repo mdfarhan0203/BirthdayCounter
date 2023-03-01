@@ -12,7 +12,7 @@ function timeFormat(time) {
 
 // Bday Reminder
 function birthDayReminder() {
-    let birthdayDate = Date.parse('March 03 2023');
+    let birthdayDate = Date.parse('March 02 2023');
     let currentDate = Date.parse(new Date())
     let totalSeconds = (birthdayDate - currentDate) / 1000
     let days = Math.floor(totalSeconds / 3600 / 24)
