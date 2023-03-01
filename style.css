@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    height: 100vh;
+    background-image: url(./images/party.avif);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 600;
+}
+
+h2 {
+    color: #301E67;
+}
+
+.title {
+    padding-top: 10%;
+    color: #865DFF;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-top: 5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.timer {
+    background-color: aquamarine;
+    display: inline-block;
+    padding: 2rem;
+    border-radius: 12px;
+}
